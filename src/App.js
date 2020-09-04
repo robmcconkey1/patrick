@@ -10,7 +10,7 @@ function App() {
         <h1> McConkey Architects</h1>
 
 
-      <p> Testing TestingTestingTestingTestingTestingTestingTesting
+      <p> Testing 1,2
        </p>
       </header>
     </div>
