@@ -1,17 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Jumbotron} from './jumbotron'
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <h1> McConkey Architects</h1>
 
 
-      <p> Testing 1,2
-       </p>
+< Jumbotron />
+
+
+
+
+  <h1> Site under construction - come back in October </h1>
       </header>
     </div>
   );
