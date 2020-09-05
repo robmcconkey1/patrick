@@ -17,7 +17,7 @@ function App() {
 
 
 
-  <h1> Site under construction - come back in October </h1>
+  <h1> Site under construction - come back in October please</h1>
       </header>
     </div>
   );
