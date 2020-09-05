@@ -1,38 +1,139 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Homenaje&family=Volkhov&display=swap');
+
+h1{
+ text-align: center;
+ font-family: 'Mando' ;
+ font-weight: normal;
+ font-size: 40px;
+ margin:0px;
+ padding: 0px;
+ transform: translate(-0%, 50%)
+
+}
+
+ h2 {
+	text-align: center;
+  font-family: 'Homenaje', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin:0px
+}
+
+body {
+ text-align: center;
+ font-family: 'Homenaje', sans-serif;
+ font-weight: normal;
+ font-size: 18px;
+ margin:0px
+}
+
+p {
+  text-align: left;
+  font-family: 'Courier';
+  font-weight: normal;
+  font-size: 18px;
+  margin:00px;
+  padding: 0px;
+  display: inline-block;
+}
+
+h5 {
+
+  text-align: left;
+  font-family: 'Homenaje';
+  font-weight: normal;
+  font-size: 22px;
+  margin:0px;
+  padding: 0px
+}
+
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Homenaje', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
   text-align: center;
+  color: white;	}
+
+
+
+#mainMenu {
+
+	width:100%;
+  font-size: 12px;
+	font-family: 'Homenaje';
+	position: relative;
+	text-align: center
+
+
+}
+#mainMenu li {
+	display: inline-block;
+	width:110px;
+	margin-left:0px;
+	border:0px ;
+	position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainMenu ul {
+	text-align: center;}
+
+#mainMenu a {
+	display:block;
+	padding:0px;
+	text-decoration:none;
+	background-color:#fff;
+	color:#7E7E7E;
+	text-align: center
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#mainMenu a:hover {
+	background-color:#FFFFFF;
+	color:#DC6A6A;
+	font-weight: 600;}
+
+
+#mainMenu a::before {
+    display: block;
+    content: attr(title);
+    font-weight: 600;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    .navbar {
+      background-color: #F0F8FF
+    }
+    .navbar-brand, .navbar-nav, .NavDropdown .nav-link {
+      color: #F0F8FF;
+      font-size: 18px;
+    	font-family: 'Homenaje';
+    	position: relative;
+    	text-align: center;
+
+
+
+      &:hover {
+        color:white;
+      }
+
+    }
+
+
+
+
+    img {
+       height: 500px;
+      width: 100%;
+      object-fit: cover;
+      object-position: bottom;
+position: relative;
+ margin: auto;
+    }

@@ -1,7 +1,8 @@
 import React from 'react';
 import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
 import styled from 'styled-components';
-import london1 from './resize1.1-6.jpg';
+import london1 from './travel4.jpg';
+
 
 const Styles = styled.div`
 .Jumbo {

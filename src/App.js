@@ -1,7 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import {Jumbotron} from './jumbotron'
+
+
 
 
 
@@ -17,7 +19,7 @@ function App() {
 
 
 
-  <h1> Site under construction </h1>
+  <h1> Site under construction!</h1>
       </header>
     </div>
   );
