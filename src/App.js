@@ -14,12 +14,12 @@ function App() {
 
 
 
+< Jumbotron />
 
 
 
 
-
-  <h1> Site under construction - come back soon</h1>
+  <h1> Site under construction</h1>
       </header>
     </div>
   );
