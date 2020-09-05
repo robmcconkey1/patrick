@@ -19,7 +19,7 @@ function App() {
 
 
 
-  <h1> Site under construction!</h1>
+  <h1> Site under construction</h1>
       </header>
     </div>
   );

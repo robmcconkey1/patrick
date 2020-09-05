@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Homenaje&family=Volkhov&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 h1{
  text-align: center;
- font-family: 'Mando' ;
+ font-family: 'Abel' ;
  font-weight: normal;
  font-size: 40px;
  margin:0px;
@@ -11,12 +11,14 @@ h1{
 
 }
 
- h2 {
-	text-align: center;
-  font-family: 'Homenaje', sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  margin:0px
+h1{
+ text-align: center;
+ font-family: 'Abel' ;
+ font-weight: normal;
+ font-size: 60px;
+ margin:0px;
+ padding: 0px;
+ transform: translate(-0%, 50%)
 }
 
 body {
