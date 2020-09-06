@@ -33,7 +33,7 @@ export const Jumbotron = () => (
   <Jumbo fluid className="Jumbo">
   <div classname="overlay"></div>
   <Container>
-  <h1>mcconkey<strong>architects</strong></h1>
+  <h1><strong>mcconkey</strong>architects</h1>
 
     </Container>
     </Jumbo>

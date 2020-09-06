@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link'
-import paris from '.travel4.jpg' 
+import travel4 from './travel4.jpg'
 
 const useStyles = makeStyles({
   root: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
 });
 
- function CardParis() {
+ function Card1() {
   const classes = useStyles();
 
   return (
@@ -27,19 +27,19 @@ const useStyles = makeStyles({
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={paris}
+          image={travel4}
           title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
 
             <Link href="/" >
-               Paris
+               Project 1
              </Link>
 
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            The best way to plan a trip to Paris
+            A little info into architecture shot 1 - click link for page
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -56,4 +56,4 @@ const useStyles = makeStyles({
 
 
 }
-export default CardParis
+export default Card1

@@ -1,10 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {Jumbotron} from './jumbotron'
-import ImageGridList from './gridlist'
-
-
+import {Jumbotron} from './jumbotron';
+import {ImageGridList} from './gridlists'
+import { Button } from '@material-ui/core';
+import Card1 from './card'
 
 
 
@@ -17,6 +17,9 @@ function App() {
 
 < Jumbotron />
 
+
+
+< Card1 />
 
 
 
