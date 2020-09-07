@@ -16,19 +16,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <React.Fragment>
 <NavigationBar/>
       <BrowserRouter>
               <Switch>
 
   <Route exact path="/travel.js" component ={Travel} />
-
+<Route exact path="/travel.js" component ={Travel} />
+<Route exact path="/travel.js" component ={Travel} />
                 </Switch>
 
             </BrowserRouter>
 
 < Jumbotron />
 
-
+</React.Fragment>
 
 
 < CenteredGrid />
