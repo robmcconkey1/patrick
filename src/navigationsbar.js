@@ -16,8 +16,7 @@ export const NavigationBar = () => (
   <Nav className= "navBar">
   <Nav.Item><NavLink href="/"> Home </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="/travel"> Travel </NavLink> </Nav.Item>
-<Nav.Item><NavLink href="/travel"> Travel </NavLink> </Nav.Item>
-<Nav.Item><NavLink href="/travel"> Travel </NavLink> </Nav.Item>
+
 
 </Nav>
   </Navbar.Collapse>

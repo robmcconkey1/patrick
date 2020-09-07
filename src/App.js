@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Jumbotron} from './jumbotron';
@@ -12,33 +12,30 @@ import CenteredGrid from './grid'
 import {Travel} from './travel'
 import {NavigationBar} from './navigationsbar.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+class App extends Component {
+
+  render () {
+    return (
       <React.Fragment>
 <NavigationBar/>
+< Jumbotron />
+<CenteredGrid />
+<h1> Site under construction</h1>
       <BrowserRouter>
+
               <Switch>
 
   <Route exact path="/travel.js" component ={Travel} />
-<Route exact path="/travel.js" component ={Travel} />
-<Route exact path="/travel.js" component ={Travel} />
+
                 </Switch>
 
             </BrowserRouter>
 
-< Jumbotron />
-
-</React.Fragment>
-
-
-< CenteredGrid />
-
-  <h1> Site under construction.</h1>
-      </header>
-    </div>
-  );
+    </React.Fragment>
+  )
 }
+}
+
+
 
 export default App;
