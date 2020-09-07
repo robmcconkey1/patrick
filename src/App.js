@@ -10,6 +10,7 @@ import Card2 from './card2'
 import Card3 from './card3'
 import CenteredGrid from './grid'
 import {Travel} from './travel'
+import {Home} from './home'
 import {NavigationBar} from './navigationsbar.js'
 
 class App extends Component {
@@ -20,12 +21,13 @@ class App extends Component {
 <NavigationBar/>
 < Jumbotron />
 <CenteredGrid />
+
 <h1> Site under construction</h1>
       <BrowserRouter>
 
               <Switch>
 
-  <Route exact path="/travel.js" component ={Travel} />
+  <Route exact path="/travel" component ={Travel} />
 
                 </Switch>
 

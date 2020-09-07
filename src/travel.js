@@ -8,6 +8,7 @@ import Card1 from './card'
 export const Travel = () => (
   <div>
   <div ClassName='.myNavbar'>
+    
 
    </div>
 
