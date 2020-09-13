@@ -15,7 +15,7 @@ export const Home = () => (
 
 
 
-<h2> Hey there - welcome to the home page!</h2>
+<h2> </h2>
 
 <SliderHome />
 

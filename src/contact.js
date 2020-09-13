@@ -15,7 +15,14 @@ export const Travel = () => (
 
 
 
-<h2> Welcome to my contact page</h2>
+<h2> Contact information  </h2>
+<p>
+
+For enquiries please email
+
+<a href="mailto:info@mcconkeyarchitects.co.uk "> info@mcconkeyarchitects.co.uk  </a>
+
+</p>
 
 
  </div>
