@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Homenaje&family=Volkhov&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-h1{
- text-align: center;
- font-family: 'Abel' ;
- font-weight: normal;
- font-size: 40px;
- margin:20px;
- padding: 0px;
- transform: translate(-0%, 80%)
-
-}
 
 h1{
  text-align: center;
@@ -18,7 +8,8 @@ h1{
  font-size: 40px;
  margin:0px;
  padding: 0px;
- transform: translate(-0%, 50%)
+ transform: translate(-0%, 50%);
+  color: #F0F8FF;
 }
 
 body {
@@ -26,7 +17,9 @@ body {
  font-family: 'Homenaje', sans-serif;
  font-weight: normal;
  font-size: 18px;
- margin:0px
+ margin:00px;
+background-color: #404040;
+
 }
 
 p {
@@ -37,6 +30,7 @@ p {
   margin:00px;
   padding: 0px;
   display: inline-block;
+   color: #F0F8FF;
 }
 
 h5 {
@@ -46,7 +40,8 @@ h5 {
   font-weight: normal;
   font-size: 22px;
   margin:0px;
-  padding: 0px
+  padding: 0px;
+   color: #F0F8FF;
 }
 
 .centered {
@@ -68,7 +63,9 @@ h5 {
   font-size: 12px;
 	font-family: 'Homenaje';
 	position: relative;
-	text-align: center
+	text-align: center;
+  color:  #F0F8FF !important;
+  background-color: #888888;
 
 
 }
@@ -78,6 +75,7 @@ h5 {
 	margin-left:0px;
 	border:0px ;
 	position: center;
+  background-color: #888888;
 }
 
 .mainMenu ul {
@@ -89,7 +87,8 @@ h5 {
 	text-decoration:none;
 	background-color:#fff;
 	color:#7E7E7E;
-	text-align: center
+	text-align: center;
+  background-color: #888888;
 }
 
 #mainMenu a:hover {
@@ -110,24 +109,21 @@ h5 {
 
 
 
-    .navbar {
-      background-color: #F0F8FF
-    }
-    .navbar-brand, .navbar-nav, .NavDropdown .nav-link {
-      color: #F0F8FF;
+
+
+    .navbar, .navbar-brand, .navbar-nav, .NavDropdown, .nav-link, .nav.link  {
+      color:  #F0F8FF !important;
       font-size: 18px;
     	font-family: 'Homenaje';
     	position: relative;
     	text-align: center;
 
-
-
       &:hover {
-        color:white;
+        color:black !important;
+        background-color: blue
       }
 
     }
-
 
 
 

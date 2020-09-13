@@ -20,7 +20,7 @@ class App extends Component {
       <React.Fragment>
 <NavigationBar/>
 < Jumbotron />
-<CenteredGrid />
+
 
 <h1> Site under construction</h1>
       <BrowserRouter>

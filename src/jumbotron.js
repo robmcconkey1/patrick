@@ -9,7 +9,7 @@ const Styles = styled.div`
 background: url(${london1}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
-height: 430px;
+height: 330px;
 position: relative;
 z-index: 0;
 }
