@@ -9,7 +9,7 @@ import Card1 from './card'
 import Card2 from './card2'
 import Card3 from './card3'
 import CenteredGrid from './grid'
-import {Travel} from './travel'
+import {Travel} from './contact'
 import {Home} from './home'
 import {NavigationBar} from './navigationsbar.js'
 
@@ -22,12 +22,13 @@ class App extends Component {
 < Jumbotron />
 
 
-<h1> Site under construction</h1>
+
       <BrowserRouter>
 
               <Switch>
 
   <Route exact path="/travel" component ={Travel} />
+    <Route exact path="/" component ={Home} />
 
                 </Switch>
 

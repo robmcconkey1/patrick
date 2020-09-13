@@ -1,23 +1,23 @@
 import React from 'react';
-import './App.css'
-import Card1 from './card.js'
+import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
+import styled from 'styled-components';
+import Card1 from './card'
+import SliderHome from './carousel'
 
 
 
 export const Home = () => (
   <div>
+  <div ClassName='.myNavbar'>
 
-<p>
 
-Enjoy the website. Please let me know if there are any images you would like to purchase.
+   </div>
 
-For enquiries please email
 
-<a href="mailto:robmcconkeyphotos@gmail.com"> robmcconkeyphotos@gmail.com </a>
 
-</p>
+<h2> Hey there - welcome to the home page!</h2>
 
-<p> </p>
+<SliderHome />
 
  </div>
 )
