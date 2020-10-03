@@ -12,6 +12,7 @@ import CenteredGrid from './grid'
 import {Travel} from './contact'
 import {Home} from './home'
 import {NavigationBar} from './navigationsbar.js'
+import {About} from './about'
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
 
   <Route exact path="/contact" component ={Travel} />
     <Route exact path="/" component ={Home} />
+    <Route exact path="/about" component ={About} />
 
                 </Switch>
 

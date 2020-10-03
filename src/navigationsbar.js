@@ -16,7 +16,7 @@ export const NavigationBar = () => (
   <Nav className= "navBar">
   <Nav.Item><NavLink href="/"> Home </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="/contact"> Contact </NavLink> </Nav.Item>
-<Nav.Item><NavLink href="/travel"> </NavLink></Nav.Item>
+<Nav.Item><NavLink href="/about"> About </NavLink>  </Nav.Item>
 
 
 </Nav>
