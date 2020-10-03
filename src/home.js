@@ -16,7 +16,12 @@ export const Home = () => (
 
 
 
-<h2> </h2>
+<h4> "Large or small, luxurious or affordable, each project has the capacity to be extraordinary..."</h4>
+
+
+
+
+<SliderHome />
 
 <h2> Patrick McConkey graduated from the Kent Institute of Art and Design, School of Architecture,
 with a CDP distinction, in 1990. As a chartered architect he has designed a number of high profile
@@ -25,11 +30,6 @@ competitions and the recipient of a Civic Trust Design Award he has tutored at 3
 architecture in the UK and Ireland and has had articles published in Architecture Today and
 Building Design. He has also exhibited at The Royal Institute of British Architects - Designing for
 Doctors. Patrick established mcconkey architects in 2020. </h2>
-
-
-
-<SliderHome />
-
 
 
  </div>

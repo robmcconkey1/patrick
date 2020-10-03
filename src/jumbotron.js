@@ -10,7 +10,7 @@ background: url(${london1}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
 height: 330px;
-position: relative;
+object-position: bottom;
 z-index: 0;
 }
 
