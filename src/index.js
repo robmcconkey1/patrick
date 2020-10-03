@@ -9,7 +9,7 @@ import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
 
 ReactDOM.render(
   <React.StrictMode>
-  <App />, 
+  <App />,
   </React.StrictMode>,
 
   document.getElementById('root'));
