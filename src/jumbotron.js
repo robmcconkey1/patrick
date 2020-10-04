@@ -9,9 +9,11 @@ const Styles = styled.div`
 background: url(${london1}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
-height: 360px;
+height: 400px;
 object-position: center;
 z-index: 0;
+position: relative;
+ margin: auto;
 }
 
 .overlay {
