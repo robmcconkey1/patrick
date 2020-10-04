@@ -3,10 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import xscape from './xscape.jpg'
-import l1 from './photos/langton.jpg'
+import l1 from './photos/l.jpg'
 import l2 from './photos/langton-2.jpg'
-import l3 from './photos/langton-3.jpg'
-import l4 from './photos/langton-4.jpg'
+import l3 from './photos/l-3.jpg'
+import l4 from './photos/l-4.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {

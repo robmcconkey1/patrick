@@ -4,7 +4,7 @@ import {Carousel} from 'react-bootstrap'
 import image4 from './xscape.jpg'
 import estuary from './estuary.jpg'
 import home from './home.jpg'
-import l4 from './photos/langton-4.jpg'
+import l4 from './photos/l-4.jpg'
 
 
 import './App.css'
