@@ -5,8 +5,8 @@ import image4 from './xscape.jpg'
 import estuary from './estuary.jpg'
 import home from './home.jpg'
 import l4 from './photos/l-4.jpg'
-
-
+import s2 from './photos/shot-2.jpg'
+import caddy from './photos/caddy.jpg'
 import './App.css'
 
 function SliderHome() {
@@ -22,6 +22,18 @@ function SliderHome() {
 
           </Carousel.Caption>
         </Carousel.Item>
+
+        <Carousel.Item>
+          <img
+            className=""
+            src={caddy}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+
+          </Carousel.Caption>
+        </Carousel.Item>
+
         <Carousel.Item>
           <img
             className=""
@@ -36,7 +48,7 @@ function SliderHome() {
         <Carousel.Item>
           <img
             className=""
-              src={home}
+              src={s2}
             alt="Third slide"
           />
 

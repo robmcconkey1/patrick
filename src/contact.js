@@ -25,10 +25,8 @@ For enquiries please email
 <br/>
 <br/>
 <a>Contact number: +447703356710 </a>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
 </p>
 
 
