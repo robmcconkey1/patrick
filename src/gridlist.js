@@ -3,6 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import xscape from './xscape.jpg'
+import l1 from './photos/langton.jpg'
+import l2 from './photos/langton-2.jpg'
+import l3 from './photos/langton-3.jpg'
+import l4 from './photos/langton-4.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: 1500,
-    height: 1050,
+    height: 1100,
   },
 }));
 
@@ -45,32 +49,25 @@ const useStyles = makeStyles((theme) => ({
 
    },
    {
-     img: xscape,
-        title: 'xscape',
-     cols: 1,
-
-   },
-   {
-     img: xscape,
-        title: 'xscape',
-     cols: 1,
-
-   },
-   {
-     img: xscape,
-        title: 'xscape',
+     img: l3,
+        title: 'l3',
      cols: 2,
 
    },
+
+
+
+
    {
      img: xscape,
         title: 'xscape',
+     cols: 3,
+   },
+   {
+     img: l4,
+        title: 'l4',
      cols: 1,
 
-   },{
-     img: xscape,
-        title: 'xscape',
-     cols: 2,
    },
    {
      img: xscape,
@@ -78,8 +75,14 @@ const useStyles = makeStyles((theme) => ({
      cols: 1,
 
    },
+   {
+     img: l1,
+        title: 'l1',
+     cols: 1,
 
-   
+   },
+
+
  ]
 export default function ImageGridList() {
   const classes = useStyles();

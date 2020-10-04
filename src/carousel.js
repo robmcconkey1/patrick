@@ -4,6 +4,8 @@ import {Carousel} from 'react-bootstrap'
 import image4 from './xscape.jpg'
 import estuary from './estuary.jpg'
 import home from './home.jpg'
+import l4 from './photos/langton-4.jpg'
+
 
 import './App.css'
 
@@ -42,7 +44,20 @@ function SliderHome() {
 
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className=""
+              src={l4}
+            alt="fourth slide"
+          />
+
+          <Carousel.Caption>
+
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
+
+
 )
 }
 export default SliderHome;

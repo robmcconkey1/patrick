@@ -173,8 +173,8 @@ position: relative;
     }
 
     .headshot_image {
-      height: 250px;
-     width: 250px;
+      height: 200px;
+     width: 200px;
      object-fit: cover;
      object-position: top;
 position: left;
