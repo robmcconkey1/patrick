@@ -193,11 +193,11 @@ margin: 30px;
 float: right;
    }
    .riba {
-     height: 80px;
+     height: 70px;
     width: auto;
     object-fit: cover;
     object-position: middle;
-position: center;
+position: relative;
 margin: 30px;
 float: middle;
    }
