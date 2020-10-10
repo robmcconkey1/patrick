@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Card1 from './card'
 import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
+import riba from './photos/RIBA+ARB+Logo.png'
 
 
 
@@ -30,7 +31,15 @@ competitions and the recipient of a Civic Trust Design Award he has tutored at 3
 architecture in the UK and Ireland and has had articles published in Architecture Today and
 Building Design. He has also exhibited at The Royal Institute of British Architects - Designing for
 Doctors. Patrick established mcconkey architects in 2020. </h2>
-
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="riba" >
+<img class="riba" src={riba} alt="headshot" />
+ </div>
 
  </div>
+
+
 )

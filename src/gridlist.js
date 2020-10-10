@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import xscape from './xscape.jpg'
+import wye from './photos/wye2.jpg'
 import l1 from './photos/l.jpg'
 import l2 from './photos/langton-2.jpg'
 import l3 from './photos/l-3.jpg'
@@ -23,12 +23,15 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
+    padding: 10,
+
 
   },
   gridList: {
     width: 1500,
-    height: 2000,
+    height: 2500,
   },
+
 }));
 
 /**
@@ -52,15 +55,16 @@ const useStyles = makeStyles((theme) => ({
 
  const tileData = [
    {
-     img: xscape,
+     img: wye,
         title: 'xscape',
      cols: 1,
+
 
    },
    {
      img: l3,
         title: 'l3',
-     cols: 2,
+     cols: 1,
 
    },
 
@@ -70,16 +74,11 @@ const useStyles = makeStyles((theme) => ({
    {
      img: shot2,
         title: 'xscape',
-     cols: 3,
+     cols: 1,
    },
+
    {
      img: shot3,
-        title: 'l4',
-     cols: 1,
-
-   },
-   {
-     img: shot,
         title: 'xscape',
      cols: 1,
 
@@ -133,9 +132,9 @@ export default function ImageGridList() {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={360} cellWidth={1000} className={classes.gridList} cols={3}>
+      <GridList cellHeight={360} cellWidth={100} className={classes.gridList} cols={2}>
         {tileData.map((tile) => (
-          <GridListTile key={tile.img} cols={tile.cols || 2}>
+          <GridListTile key={tile.img} cols={tile.cols || 1}>
             <img src={tile.img} alt={tile.title} />
           </GridListTile>
         ))}

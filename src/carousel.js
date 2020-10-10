@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import {Carousel} from 'react-bootstrap'
-import image4 from './xscape.jpg'
+import image4 from './photos/wye2.jpg'
 import estuary from './estuary.jpg'
 import home from './home.jpg'
 import l4 from './photos/l-4.jpg'
@@ -15,7 +15,7 @@ function SliderHome() {
         <Carousel.Item>
           <img
             className=""
-            src={image4}
+            src={caddy}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -26,7 +26,7 @@ function SliderHome() {
         <Carousel.Item>
           <img
             className=""
-            src={caddy}
+            src={image4}
             alt="First slide"
           />
           <Carousel.Caption>
