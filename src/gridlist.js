@@ -16,6 +16,12 @@ import shot6 from './photos/shot-6.jpg'
 import caddy from './photos/caddy.jpg'
 import caddy2 from './photos/caddy-2.jpg'
 import caddy3 from './photos/caddy-3.jpg'
+import sketch1 from './photos/road.jpg'
+import sketch2 from './photos/06.jpg'
+import wye2 from './photos/wye4.jpg'
+import l5 from './photos/gallery1.jpg'
+import caddy4 from './photos/gallery1-2.jpg'
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: 1500,
-    height: 2500,
+    height: 3000,
   },
 
 }));
@@ -55,6 +61,30 @@ const useStyles = makeStyles((theme) => ({
 
  const tileData = [
    {
+     img: caddy,
+        title: 'xscape',
+     cols: 1,
+
+   },
+   {
+     img: caddy2,
+        title: 'xscape',
+     cols: 1,
+
+   },
+   {
+     img: caddy3,
+        title: 'xscape',
+     cols: 1,
+
+   },
+   {
+     img: caddy4,
+        title: 'xscape',
+     cols: 1,
+
+   },
+   {
      img: wye,
         title: 'xscape',
      cols: 1,
@@ -62,13 +92,11 @@ const useStyles = makeStyles((theme) => ({
 
    },
    {
-     img: l3,
-        title: 'l3',
+     img: wye2,
+        title: 'xscape',
      cols: 1,
 
    },
-
-
 
 
    {
@@ -84,8 +112,16 @@ const useStyles = makeStyles((theme) => ({
 
    },
    {
-     img: l1,
-        title: 'l1',
+     img: l3,
+        title: 'l3',
+     cols: 1,
+
+   },
+
+  
+   {
+     img: l5,
+        title: 'xscape',
      cols: 1,
 
    },
@@ -107,24 +143,21 @@ const useStyles = makeStyles((theme) => ({
      cols: 1,
 
    },
+
    {
-     img: caddy,
+     img: sketch1,
         title: 'xscape',
      cols: 1,
 
    },
+
    {
-     img: caddy2,
+     img: sketch2,
         title: 'xscape',
      cols: 1,
 
    },
-   {
-     img: caddy3,
-        title: 'xscape',
-     cols: 1,
 
-   },
 
  ]
 export default function ImageGridList() {

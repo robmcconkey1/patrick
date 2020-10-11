@@ -38,7 +38,7 @@ h3{
 h4{
  text-align: center;
  font-family: 'Abel' ;
- font-weight: bold;
+ font-weight: normal;
  font-size: 25px;
  margin:50px;
  padding-right: 15%;
@@ -193,11 +193,11 @@ margin: 30px;
 float: right;
    }
    .riba {
-     height: 70px;
+     height: 60px;
     width: auto;
     object-fit: cover;
     object-position: middle;
 position: relative;
-margin: 30px;
+margin: 0px;
 float: middle;
    }
