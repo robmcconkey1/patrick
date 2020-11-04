@@ -183,6 +183,12 @@ position: relative;
  margin: auto;
     }
 
+    @media (max-width: 992px) {
+      img {
+        height: 80%
+      }
+    }
+
     .headshot_image {
       height: 200px;
      width: 200px;

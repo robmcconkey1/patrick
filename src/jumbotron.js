@@ -15,6 +15,11 @@ z-index: 0;
 position: relative;
  margin: auto;
 }
+@media (max-width: 992px) {
+  img {
+    height: 10%
+  }
+}
 
 .overlay {
   background-colour:#000;
@@ -29,6 +34,7 @@ position: relative;
 
 }
 `
+
 
 export const Jumbotron = () => (
   <Styles>
