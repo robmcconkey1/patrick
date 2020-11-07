@@ -16,18 +16,7 @@ position: relative;
  margin: auto;
  opacity: 0.9;
 }
-@media (max-width: 900px) {
-.Jumbo {
-background: url(${london1}) no-repeat fixed bottom;
 
-color: #F0F8FF;
-width: 100%;
-height: 400px;
-transform: translate(0%, -0%);
-object-position: right;
-position: right;
-
-}
 
 .overlay {
   background-colour:#000;
