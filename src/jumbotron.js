@@ -14,17 +14,25 @@ object-position: center;
 z-index: 0;
 position: relative;
  margin: auto;
+ opacity: 0.9;
 }
-@media (max-width: 992px) {
-  img {
-    height: 10%
-  }
+@media (max-width: 900px) {
+.Jumbo {
+background: url(${london1}) no-repeat fixed bottom;
+
+color: #F0F8FF;
+width: 100%;
+height: 400px;
+transform: translate(0%, -0%);
+object-position: right;
+position: right;
+
 }
 
 .overlay {
   background-colour:#000;
   opacity: 0.6;
-  position: absolute;
+  position: right;
   top: 0;
   left: 0;
   bottom:0;

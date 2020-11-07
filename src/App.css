@@ -175,7 +175,7 @@ h5 {
 
 
     img {
-       height: 700px;
+       height: 600px;
       width: 100%;
       object-fit: cover;
       object-position: middle;
@@ -183,11 +183,16 @@ position: relative;
  margin: auto;
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 1500px) {
       img {
-        height: 80%
+        height: 80%;
+        display: inline-block;
+
       }
     }
+
+
+
 
     .headshot_image {
       height: 200px;
@@ -198,6 +203,13 @@ position: left;
 margin: 30px;
 float: right;
    }
+   @media (max-width: 1800px) {
+.headshot_image {
+  height: 40%;
+
+
+     }
+   }
    .riba {
      height: 60px;
     width: auto;
@@ -207,3 +219,39 @@ position: relative;
 margin: 0px;
 float: middle;
    }
+
+  .about{
+    text-align: justify;
+    font-family: 'Abel' ;
+    font-weight: normal;
+    font-size: 20px;
+    margin:30px;
+    padding: 30px;
+    transform: translate(-0%, 0%);
+     color: #F0F8FF;
+     float: middle;
+   }
+   @media (max-width: 800px) {
+.about {
+  text-align: justify;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 16px;
+  margin:10px;
+  padding: 30px;
+  transform: translate(-0%, 0%);
+   color: #F0F8FF;
+   float: middle;
+}
+}
+
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #89A84F;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

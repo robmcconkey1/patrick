@@ -15,6 +15,7 @@ import {NavigationBar} from './navigationsbar.js'
 import {About} from './about'
 import {Gallery} from './gallery'
 
+
 class App extends Component {
 
   render () {
@@ -22,6 +23,7 @@ class App extends Component {
       <React.Fragment>
 <NavigationBar/>
 < Jumbotron />
+
 
 
 
