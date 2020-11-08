@@ -204,7 +204,7 @@ margin: 30px;
 float: right;
    }
 
-  
+
    .riba {
      height: 60px;
     width: auto;
@@ -227,7 +227,7 @@ float: middle;
      float: middle;
    }
    @media only screen and (max-width: 550px) {
-.about and .headshot_image{
+.about{
   text-align: justify;
   font-family: 'Abel' ;
   font-weight: normal;
