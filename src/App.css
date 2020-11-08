@@ -203,7 +203,7 @@ position: left;
 margin: 30px;
 float: right;
    }
-   @media (max-width: 1800px) {
+   @media only screen and (max-width: 550px) {
 .headshot_image {
   height: 40%;
 
@@ -231,17 +231,17 @@ float: middle;
      color: #F0F8FF;
      float: middle;
    }
-   @media (max-width: 550px) {
+   @media only screen and (max-width: 550px) {
 .about {
   text-align: justify;
   font-family: 'Abel' ;
   font-weight: normal;
   font-size: 16px;
   margin:10px;
-  padding: 30px;
+  padding: 20px;
   transform: translate(-0%, 0%);
    color: #F0F8FF;
-   float: middle;
+
 }
 }
 
