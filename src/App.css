@@ -203,13 +203,8 @@ position: left;
 margin: 30px;
 float: right;
    }
-   @media only screen and (max-width: 550px) {
-.headshot_image {
-  height: 40%;
 
-
-     }
-   }
+  
    .riba {
      height: 60px;
     width: auto;
@@ -232,7 +227,7 @@ float: middle;
      float: middle;
    }
    @media only screen and (max-width: 550px) {
-.about {
+.about and .headshot_image{
   text-align: justify;
   font-family: 'Abel' ;
   font-weight: normal;
@@ -241,6 +236,7 @@ float: middle;
   padding: 20px;
   transform: translate(-0%, 0%);
    color: #F0F8FF;
+
 
 }
 }

@@ -6,6 +6,7 @@ import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
 import xscape from './xscape.jpg'
 import riba from './photos/RIBA+ARB+Logo.png'
+import {Footer} from './footer'
 
 
 
@@ -35,6 +36,9 @@ Doctors. Patrick established mcconkey architects in 2020. </h2>
 <br/>
 <div class="riba" >
 <img class="riba" src={riba} alt="headshot" />
+<Footer/>
  </div>
  </div>
+
+
 )

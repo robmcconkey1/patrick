@@ -5,7 +5,7 @@ import Card1 from './card'
 import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
 import riba from './photos/RIBA+ARB+Logo.png'
-
+import {Footer} from './footer'
 
 
 export const Travel = () => (
@@ -42,10 +42,11 @@ For enquiries please email
 <br/>
 <div class="riba" >
 <img class="riba" src={riba} alt="headshot" />
+
  </div>
 </p>
 
-
+<Footer/>
  </div>
 
 )
