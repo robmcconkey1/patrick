@@ -28,11 +28,23 @@ h3{
  text-align: center;
  font-family: 'Abel' ;
  font-weight: normal;
- font-size: 30px;
+ font-size: 36px;
  margin:40px;
  padding: 0px;
  transform: translate(-0%, -100%);
   color: #000000;
+}
+@media only screen and (max-width: 550px) {
+h3{
+ text-align: center;
+ font-family: 'Abel' ;
+ font-weight: normal;
+ font-size: 30px;
+ margin:40px;
+ padding: 0px;
+ transform: translate(-0%, -0%);
+  color: #000000;
+}
 }
 
 h4{
@@ -71,6 +83,27 @@ background-color: #404040;
 
 p {
   text-align: left;
+  font-family: 'Abel';
+  font-weight: normal;
+  font-size: 18px;
+  margin:00px;
+  padding: 0px;
+  display: inline-block;
+   color: #F0F8FF;
+}
+
+.footerleft {
+  text-align: left;
+  font-family: 'Abel';
+  font-weight: normal;
+  font-size: 18px;
+  margin:00px;
+  padding: 0px;
+  display: inline-block;
+   color: #F0F8FF;
+}
+.footerright {
+  text-align: right;
   font-family: 'Abel';
   font-weight: normal;
   font-size: 18px;
@@ -175,7 +208,7 @@ h5 {
 
 
     img {
-       height: 600px;
+       height: 800px;
       width: 100%;
       object-fit: cover;
       object-position: middle;
@@ -183,9 +216,9 @@ position: relative;
  margin: auto;
     }
 
-    @media (max-width: 1500px) {
+    @media (max-width: 1000px) {
       img {
-        height: 80%;
+        height: 60%;
         display: inline-block;
 
       }
@@ -237,23 +270,33 @@ float: middle;
   transform: translate(-0%, 0%);
    color: #F0F8FF;
 
-
 }
 }
-
-
 
 .intro{
   text-align: justify;
   font-family: 'Abel' ;
   font-weight: normal;
   font-size: 20px;
-  margin:30px;
+  margin:70px;
   padding: 30px;
   transform: translate(-0%, 0%);
    color: #F0F8FF;
    float: middle;
  }
+ @media only screen and (max-width: 800px) and (min-width: 550px){
+.intro {
+  text-align: justify;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 18px;
+  margin:40px;
+  padding: 30px;
+  transform: translate(-0%, 0%);
+   color: #F0F8FF;
+   float: middle;
+}
+}
  @media only screen and (max-width: 550px) {
 .intro {
   text-align: justify;

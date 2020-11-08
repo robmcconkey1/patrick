@@ -10,12 +10,14 @@ background: url(${london1}) no-repeat fixed bottom;
 background-size: cover;
 color: #F0F8FF;
 height: 400px;
-object-position: center;
+object-position: right;
 z-index: 0;
 position: relative;
  margin: auto;
  opacity: 0.9;
 }
+
+
 
 
 .overlay {
@@ -38,7 +40,7 @@ export const Jumbotron = () => (
   <Jumbo fluid className="Jumbo">
   <div classname="overlay"></div>
   <Container>
-  <h3><strong>mcconkey</strong>architects</h3>
+  <h3 class= "heading"><strong>mcconkey</strong>architects</h3>
 
     </Container>
     </Jumbo>
