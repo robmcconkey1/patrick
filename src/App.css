@@ -231,8 +231,35 @@ float: middle;
      color: #F0F8FF;
      float: middle;
    }
-   @media (max-width: 800px) {
+   @media (max-width: 550px) {
 .about {
+  text-align: justify;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 16px;
+  margin:10px;
+  padding: 30px;
+  transform: translate(-0%, 0%);
+   color: #F0F8FF;
+   float: middle;
+}
+}
+
+
+
+.intro{
+  text-align: justify;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 20px;
+  margin:30px;
+  padding: 30px;
+  transform: translate(-0%, 0%);
+   color: #F0F8FF;
+   float: middle;
+ }
+ @media only screen and (max-width: 550px) {
+.intro {
   text-align: justify;
   font-family: 'Abel' ;
   font-weight: normal;

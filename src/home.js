@@ -25,7 +25,7 @@ export const Home = () => (
 
 <SliderHome />
 
-<h2> Patrick McConkey graduated from the Kent Institute of Art and Design, School of Architecture,
+<h2 class= "intro"> Patrick McConkey graduated from the Kent Institute of Art and Design, School of Architecture,
 with a CDP distinction, in 1990. As a chartered architect he has designed a number of high profile
 projects and has practised in London, Paris and Cape Town. Winner of several architectural
 competitions and the recipient of a Civic Trust Design Award he has tutored at 3 schools of
