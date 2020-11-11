@@ -24,3 +24,15 @@ function Navbars() {
 
   )
 }
+<div>
+    <div className={classes.root}>
+      <GridList cellHeight={360} cellWidth={100} className= "classes.gridList" cols={2}  className= "classes.gridList2" cols={1} >
+        {tileData.map((tile) => (
+          <GridListTile key={tile.img} cols={tile.cols || 1}>
+            <img src={tile.img} alt={tile.title} />
+          </GridListTile>
+        ))}
+      </GridList>
+
+    </div>
+    </div>

@@ -6,6 +6,7 @@ import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
 import ImageGridList from './gridlist.js'
 import {Footer} from './footer'
+import {TestPage} from './newgallery.js'
 
 
 export const Gallery = () => (
@@ -14,8 +15,9 @@ export const Gallery = () => (
 
 
    </div>
-
-<ImageGridList/>
+   <br/>
+   <br/>
+<TestPage/>
 <Footer/>
 
  </div>
