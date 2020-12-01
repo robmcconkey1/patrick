@@ -77,7 +77,7 @@ body {
  font-weight: normal;
  font-size: 18px;
  margin:00px;
-background-color: #404040;
+background-color: #4d4d4d;
 
 }
 
@@ -145,7 +145,7 @@ h5 {
 	position: relative;
 	text-align: center;
   color:  #F0F8FF !important;
-  background-color: #888888;
+  background-color: #4d4d4d;
 
 
 }
@@ -155,7 +155,7 @@ h5 {
 	margin-left:0px;
 	border:0px ;
 	position: center;
-  background-color: #888888;
+  background-color: #4d4d4d;
 }
 
 .mainMenu ul {
@@ -168,7 +168,7 @@ h5 {
 	background-color:#fff;
 	color:#7E7E7E;
 	text-align: center;
-  background-color: #888888;
+  background-color: #4d4d4d;
 }
 
 #mainMenu a:hover {
@@ -191,12 +191,13 @@ h5 {
 
 
 
-    .navbar, .navbar-brand, .navbar-nav, .NavDropdown, .nav-link, .nav.link  {
+    .navbar, .navbar-brand, .navbar-nav, .NavDropdown, .nav-link, .nav.link, .Navbar.Collapse {
       color:  #F0F8FF !important;
       font-size: 18px;
     	font-family: 'Abel';
     	position: relative;
-    	text-align: center;
+      text-align: center;
+      background-color: #89A84F;
 
       &:hover {
         color:black !important;

@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap'
 import image4 from './photos/wye2.jpg'
 import estuary from './estuary.jpg'
-import home from './home.jpg'
 import l4 from './photos/l-4.jpg'
 import s2 from './photos/shot-2.jpg'
 import caddy from './photos/caddy.jpg'

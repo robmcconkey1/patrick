@@ -15,12 +15,13 @@ export const About = () => (
   <div ClassName='.myNavbar'>
 
 <h1> About </h1>
+<br/>
 
    </div>
 <div class="headshot" >
 <img class="headshot_image" src={patrick} alt="headshot" />
 </div>
-<br/>
+
 <h2 class= "about"> Patrick McConkey graduated from the Kent Institute of Art and Design, School of Architecture,
 with a CDP distinction, in 1990. As a chartered architect he has designed a number of high profile
 projects and has practised in London, Paris and Cape Town. Winner of several architectural
@@ -31,7 +32,12 @@ Doctors. Patrick established mcconkey architects in 2020. </h2>
 
 
 <br/>
+
+<h1> Services </h1>
+
 <br/>
+<h2 class= "about"> Coming Soon </h2>
+
 
 <br/>
 <div class="riba" >

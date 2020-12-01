@@ -12,7 +12,7 @@ export const NavigationBar = () => (
   <Navbar expand="lg">
   <Navbar.Brand href="/home"> </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-  <Navbar.Collapse id="basic-navbar-nav">
+  <Navbar.Collapse id="basic-navbar-nav" id="basic-navbar-nav" stlye = 'color: #0000000'>
   <Nav className= "navBar">
   <Nav.Item><NavLink href="/"> Home </NavLink> </Nav.Item>
 <Nav.Item><NavLink href="/about"> About </NavLink>  </Nav.Item>
