@@ -7,12 +7,15 @@ import { HashRouter, Route, Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap'
 
-ReactDOM.render(
+const app = (
   <React.StrictMode>
-  <App />,
-  </React.StrictMode>,
+    <App />
+  </React.StrictMode>
+);
 
-  document.getElementById('root'));
+const container = document.getElementById('root');
+
+ReactDOM.render(app, container);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

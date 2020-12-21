@@ -5,21 +5,12 @@ import Card1 from './card'
 import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
 import ImageGridList from './gridlist.js'
-import {Footer} from './footer'
+import Footer from './footer'
 import {TestPage} from './newgallery.js'
 
-
 export const Gallery = () => (
-  <div>
-  <div ClassName='.myNavbar'>
-
-
-   </div>
-   <br/>
-   <br/>
-<TestPage/>
-<Footer/>
-
- </div>
-
-)
+  <main>
+    <TestPage/>
+    <Footer/>
+  </main>
+);

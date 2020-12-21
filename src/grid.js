@@ -2,9 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Card from './card'
-import Card2 from './card2'
-import Card3 from './card3'
+import Hoverbox from './hover'
+import Hoverbox2 from './hover2';
+import Hoverbox3 from './hover3';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,13 +24,13 @@ export default function CenteredGrid() {
     <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={4}>
-          <Card/>
+          <Hoverbox/>
         </Grid>
         <Grid item xs={4}>
-          <Card2/>
+          <Hoverbox2/>
         </Grid>
         <Grid item xs={4}>
-          <Card3/>
+          <Hoverbox3/>
         </Grid>
 
       </Grid>

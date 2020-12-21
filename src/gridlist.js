@@ -46,15 +46,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    padding: 10,
-
-
-
-  },
-
-  gridList: {
-    border: 'solid 1px red',
-
+    padding: 10
 
 
 
@@ -182,7 +174,7 @@ const useStyles = makeStyles((theme) => ({
         title: 'xscape',
      cols: 1,
 
-   },
+   }
 
 
  ]

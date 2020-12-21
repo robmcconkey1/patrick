@@ -17,32 +17,22 @@ import {Gallery} from './gallery'
 
 
 class App extends Component {
-
   render () {
     return (
       <React.Fragment>
-<NavigationBar/>
-< Jumbotron />
-
-
-
-
-      <BrowserRouter>
-
-              <Switch>
-
-  <Route exact path="/contact" component ={Travel} />
-    <Route exact path="/" component ={Home} />
-    <Route exact path="/about" component ={About} />
-    <Route exact path="/gallery" component ={Gallery} />
-
-                </Switch>
-
-            </BrowserRouter>
-
-    </React.Fragment>
-  )
-}
+        <NavigationBar/>
+        <Jumbotron />
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/contact" component={Travel} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/gallery" component={Gallery} />
+          </Switch>
+        </BrowserRouter>
+      </React.Fragment>
+    );
+  }
 }
 
 
