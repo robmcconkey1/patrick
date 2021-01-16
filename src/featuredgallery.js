@@ -1,31 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
 import wye from './photos/wye2.jpg';
-import lawrence1 from './photos/lawrence1.jpg'
-import lawrence2 from './photos/lawrence2.jpg'
-import lawrence3 from './photos/lawrence3.jpg'
-import lawrence4 from './photos/lawrence4.jpg'
-import lawrence5 from './photos/lawrence5.jpg'
+import lawrence1 from './photos/lawrence8.jpg'
+import lawrence2 from './photos/lawrence-2.jpg'
+import lawrence3 from './photos/lawrence-4.jpg'
+import lawrence4 from './photos/lawrence-7.jpg'
+import lawrence5 from './photos/lawrence-6.jpg'
 import lawrence6 from './photos/lawrence6.jpg'
-import lawrence7 from './photos/lawrence7.jpg'
+import lawrence7 from './photos/lawrence5.jpg'
 const images = [
-  {
-    image: lawrence7,
-  },
-  {
-    image: lawrence5,
-  },
   {
     image: lawrence1,
   },
   {
-    image: lawrence4,
+    image: lawrence2,
   },
   {
     image: lawrence6,
   },
   {
-    image: lawrence2,
+    image: lawrence5,
+  },
+  {
+    image: lawrence4,
   },
   {
     image: lawrence3,
