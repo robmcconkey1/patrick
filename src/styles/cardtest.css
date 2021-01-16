@@ -1,0 +1,126 @@
+  .fonts > p {
+    color: black;
+  }
+  .fonts > h1 {
+    color: black;
+  }
+  
+  .holdingcontainertest{
+      max-width: 100%;
+      display: flex;
+      background: #34382d;
+      padding: 20px;
+      margin: 20px;
+      box-sizing: border-box;
+      flex-direction: row;
+
+    }
+    
+        .internalcontainerLtest{
+        flex: 1.5;
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin: 10px;
+        background-color: aqua;
+        position: relative;
+            display: block;
+            width: 400px;
+            height: 250px;
+            background: #000;
+            background-image: url('../photos/caddy.jpg');
+            background-size: cover;
+            margin: 20px ;
+            border-radius: 32px;
+            transform: scale(1);
+            transition: all 0.3s ease-in-out;
+        
+            
+
+        }
+        
+        
+    
+        .internalcontainerMtest{
+        flex: 1.5;
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif; 
+        margin: 10px;
+    
+        position: relative;
+        display: block;
+        width: 400px;
+        height: 250px;
+        background: #000;
+        background-image: url('../photos/caddy-2.jpg');
+        background-size: cover;
+        margin: 20px ;
+        border-radius: 32px;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+        }
+    
+        .internalcontainerRtest{
+        flex: 1.5;
+        
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin: 10px;
+        background-color: brown;
+        position: relative;
+        display: block;
+        width: 400px;
+        height: 250px;
+        background: #000;
+        background-image: url('../photos/l-4.jpg');
+        background-size: cover;
+        margin: 20px auto;
+        border-radius: 32px;
+        transform: scale(1);
+        transition: all 0.3s ease-in-out;
+        }
+   
+    @media screen and (max-width: 868px){
+      .holdingcontainertest{
+        flex-direction: column;
+        padding: 10px;
+        width: fill;
+        background-size: cover;
+        ;
+      }
+  
+      .internalcontainerLtest{
+        flex: 1.5;
+        height: 400px;
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin: 3px;
+        background-size: cover;
+        display: block;
+      }
+    
+      .internalcontainerMtest{
+        flex: 1.5;
+        
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif; 
+        margin: 3px;
+        background-size: cover;
+      }
+    
+      .internalcontainerRtest{
+        flex: 20;
+      size: 1000px;
+        padding: 10px;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        margin: 3px;
+        background-size: cover;
+
+      }
+    }
+  

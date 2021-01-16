@@ -8,32 +8,26 @@ import xscape from './xscape.jpg'
 import riba from './photos/RIBA+ARB+Logo.png'
 import Footer from './footer'
 import Grid from './components/gridtheme';
+import {Cardtest} from './components/cardfeature';
+import Homeflex from './components/homeflex'
+import Welcome from './components/testcard'
+import App2 from './components/testcard'
+
 
 
 
 export const About = () => (
   <div>
-  
+    <h1> About </h1>
+      <br/>
+        <Grid/><br/>
+          <Footer/>
+          
+          
 
-<h1> About </h1>
-<br/>
-
-   
-
-<Grid/>
-
-<br/><br/>
-<br/>
-
-
-
-<br/>
-
-
-
-<Footer/>
- </div>
-
-
-
+            
+  </div>
+            
 )
+/* <Homeflex/>
+<App2/> */

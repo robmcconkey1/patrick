@@ -7,7 +7,7 @@ import patrick from './profilephoto.jpg'
 import riba from './photos/RIBA+ARB+Logo.png'
 import Footer from './footer'
 import Footer2 from './footer2';
-import Flexbox from './flexbox';
+import Flexbox from './components/flexbox';
 import Hoverbox from './hover';
 import Hoverbox2 from './hover2';
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import './hover.css'
+import './styles/hover.css'
 
 export default function Hoverbox2() {
     return (

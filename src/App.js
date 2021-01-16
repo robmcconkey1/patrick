@@ -14,6 +14,7 @@ import {Home} from './home'
 import {NavigationBar} from './navigationsbar.js'
 import {About} from './about'
 import {Gallery} from './gallery'
+import {Recent} from './recentwork'
 
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/recent" component={Recent} />
           </Switch>
         </BrowserRouter>
       </React.Fragment>

@@ -92,26 +92,7 @@ p {
    color: #F0F8FF;
 }
 
-.footerleft {
-  text-align: left;
-  font-family: 'Abel';
-  font-weight: normal;
-  font-size: 18px;
-  margin:00px;
-  padding: 0px;
-  display: inline-block;
-   color: #F0F8FF;
-}
-.footerright {
-  text-align: right;
-  font-family: 'Abel';
-  font-weight: normal;
-  font-size: 18px;
-  margin:00px;
-  padding: 0px;
-  display: inline-block;
-   color: #F0F8FF;
-}
+
 
 h5 {
 
@@ -199,7 +180,7 @@ h5 {
       text-align: center;
       background-color: #89A84F;
 
-      &:hover {
+      hover {
         color:black !important;
         background-color: blue
       }
