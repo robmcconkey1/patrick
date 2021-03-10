@@ -2,20 +2,23 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 
 
+
 export default function ContactUs() {
 
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_d1tlxo8', 'rob_template', e.target, 'user_2kHYvHjk5SCVOzTSpxTcS')
+    emailjs.sendForm('service_d1tlxo8', 'template_a1ys97m', e.target, 'user_2kHYvHjk5SCVOzTSpxTcS')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+      e.target.reset()
   }
 
   return (
+
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
       <label>Name</label>
@@ -26,5 +29,6 @@ export default function ContactUs() {
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
+  
   );
 }

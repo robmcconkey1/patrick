@@ -31,7 +31,7 @@ Building Design. He has also exhibited at The Royal Institute of British Archite
 Doctors. Patrick established mcconkey architects in 2020. </h2>
 <br/>
 
-<div> <ContactUs/> </div>
+<payment> <ContactUs/> </payment>
 
 < Footer />
 
