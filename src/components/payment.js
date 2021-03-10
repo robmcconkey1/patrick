@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-
+import{ init } from 'emailjs-com';
+init("user_2kHYvHjk5SCVOzTSpxTcS");
 
 
 export default function ContactUs() {
@@ -20,14 +21,13 @@ export default function ContactUs() {
   return (
 
     <form className="contact-form" onSubmit={sendEmail}>
-      <input type="hidden" name="contact_number" />
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="name" />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="email" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <input type="submit" value="Send Message" />
     </form>
   
   );
