@@ -12,6 +12,7 @@ import Hoverbox from './hover';
 import Hoverbox2 from './hover2';
 import Payment from './components/payment';
 import ContactUs from './components/payment';
+import './App.css'
 
 
 
@@ -30,7 +31,7 @@ Building Design. He has also exhibited at The Royal Institute of British Archite
 Doctors. Patrick established mcconkey architects in 2020. </h2>
 <br/>
 
-<ContactUs/>
+<div> <ContactUs/> </div>
 
 < Footer />
 
