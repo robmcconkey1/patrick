@@ -18,20 +18,23 @@ import './App.css'
 
 export const Home = () => (
   <div>
-<h4> "Large or small, luxurious or affordable, each project has the capacity to be extraordinary..."</h4>
+<h4> "Large or small, each project has the capacity to be extraordinary..."</h4>
 
 <SliderHome />
 
-<h2 class= "intro"> Patrick McConkey graduated from the Kent Institute of Art and Design, School of Architecture,
-with a CDP distinction, in 1990. As a chartered architect he has designed a number of high profile
+<h2 class= "intro"> Patrick McConkey graduated in 1990 from the Kent Institute of Art and Design with a CDP Distinction. As a chartered architect he has designed a number of high profile
 projects and has practised in London, Paris and Cape Town. Winner of several architectural
 competitions and the recipient of a Civic Trust Design Award he has tutored at 3 schools of
 architecture in the UK and Ireland and has had articles published in Architecture Today and
 Building Design. He has also exhibited at The Royal Institute of British Architects - Designing for
-Doctors. Patrick established mcconkey architects in 2020. </h2>
+Doctors. Patrick established mcconkey architects in 2020, a design led practice delivering extraordinary projects for their clients. </h2>
 <br/>
 
-<payment> <ContactUs/> </payment>
+<p> <ContactUs/> </p> 
+
+<br/><br/>
+<br/>
+
 
 < Footer />
 

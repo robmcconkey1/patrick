@@ -1,7 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import{ init } from 'emailjs-com';
+import '../App.css';
 init("user_2kHYvHjk5SCVOzTSpxTcS");
+
 
 
 export default function ContactUs() {
@@ -19,16 +21,19 @@ export default function ContactUs() {
   }
 
   return (
-
-    <form className="contact-form" onSubmit={sendEmail}>
+    <container>
+    <div className="payment">
+    <form onSubmit={sendEmail}>
+        <h1>Inquiries</h1> <br/> <br/> 
       <label>Name</label>
-      <input type="text" name="name" />
+      <input className="payment" type="text" name="name" />
       <label>Email</label>
-      <input type="email" name="email" />
+      <input className="payment" type="email" name="email" />
       <label>Message</label>
-      <textarea name="message" />
+      <textarea className="payment" name="message" />
       <input type="submit" value="Send Message" />
     </form>
-  
+    </div>
+    </container>
   );
 }
