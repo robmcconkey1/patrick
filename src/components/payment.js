@@ -24,7 +24,7 @@ export default function ContactUs() {
     <container>
     <div className="payment">
     <form onSubmit={sendEmail}>
-        <h1>Inquiries</h1> <br/> <br/> 
+        <h1>Enquiries</h1> <br/> <br/> 
       <label>Name</label>
       <input className="payment" type="text" name="name" />
       <label>Email</label>
