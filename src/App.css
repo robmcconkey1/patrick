@@ -414,3 +414,8 @@ float: middle;
 .form {
   background-color: chartreuse;
 }
+
+.image {
+  height: 100px
+  ;
+}

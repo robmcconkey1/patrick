@@ -12,6 +12,7 @@ import Hoverbox from './hover';
 import Hoverbox2 from './hover2';
 import Payment from './components/payment';
 import ContactUs from './components/payment';
+import Services from './services'
 import './App.css'
 
 

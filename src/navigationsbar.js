@@ -18,6 +18,7 @@ export const NavigationBar = () => (
 <Nav.Item><NavLink href="/about"> About </NavLink>  </Nav.Item>
 <Nav.Item><NavLink href="/gallery"> Gallery </NavLink>  </Nav.Item>
 <Nav.Item><NavLink href="/contact"> Contact </NavLink> </Nav.Item>
+<Nav.Item><NavLink href="/services"> Services </NavLink> </Nav.Item>
 <NavDropdown href="/recent" title="Recent Projects" id="basic-nav-dropdown">
 <NavDropdown.Item href="/recent">Canterbury</NavDropdown.Item>
   </NavDropdown>

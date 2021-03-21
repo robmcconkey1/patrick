@@ -6,6 +6,9 @@ import SliderHome from './carousel'
 import patrick from './profilephoto.jpg'
 import riba from './photos/RIBA+ARB+Logo.png'
 import Footer from './footer'
+import ContactUs from './components/payment';
+import linkedin from './photos/linkedin.jpg'
+import './App.css';
 
 
 export const Travel = () => (
@@ -14,27 +17,17 @@ export const Travel = () => (
 
 
    </div>
-
-
-
-<h1> Contact information  </h1>
 <p>
 <br/>
 <br/>
 
-For enquiries please email
+<p> <ContactUs/> </p> 
+<br/>
+<br/>
 
-<a href="mailto:info@mcconkeyarchitects.co.uk "> info@mcconkeyarchitects.co.uk </a>
+<a href="https://www.linkedin.com/in/patrick-mcconkey-91aa2940/?originalSubdomain=uk"> <img  height= '100px' src={linkedin}/>  </a>
 <br/>
-<br/>
-<a>Contact number: +447703356710 </a>
-<br/>
-<br/>
-<a href="https://www.linkedin.com/in/patrick-mcconkey-91aa2940/?originalSubdomain=uk"> LinkedIn </a>
-<br/>
-<br/>
-<a href="https://www.linkedin.com/in/patrick-mcconkey-91aa2940/?originalSubdomain=uk"> Instagram </a>
-<br/>
+
 <br/>
 
 <br/>
