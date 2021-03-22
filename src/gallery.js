@@ -13,7 +13,7 @@ export const Gallery = () => (
   <main>
     <TestPage/>
 
-    <h1> Recent project - Canterbury, Kent </h1> <br/><br/><br/>
+    <br/><br/><p> Recent project - Canterbury, Kent </p> <br/><br/><br/>
     <Feature/>
     <Footer/>
   </main>

@@ -8,6 +8,7 @@ import xscape from './xscape.jpg'
 import Footer from './footer'
 import riba from './photos/RIBA+ARB+Logo.png'
 import Grid from './components/sevicesgrid';
+import ContactUs from './components/payment';
 
 
 
@@ -16,9 +17,10 @@ import Grid from './components/sevicesgrid';
 export const Services = () => (
   <div>
     <h1> Services </h1>
-      <br/>  <Grid/> <br/> <br/> <br/> <br/> <br/> <br/> <br/><br/> <br/> <br/><br/> <br/>
-          <Footer/>
-                      
+      <Grid/> 
+      <ContactUs/> <br/><br/><br/><br/>
+    <Footer/>
+                            
   </div>
             
 )
