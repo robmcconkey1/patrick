@@ -53,12 +53,13 @@ h4{
  font-weight: bold;
  font-size: 22px;
  margin:50px;
- padding-right: 15%;
-  padding-left: 15%;
+ padding-right: 5%;
+  padding-left: 5%;
   font-style: bold;
  transform: translate(-0%, 0%);
   color: #F0F8FF;
 }
+
 
 h5{
  text-align: center;

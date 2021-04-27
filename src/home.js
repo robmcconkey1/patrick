@@ -19,7 +19,7 @@ import './App.css'
 
 export const Home = () => (
   <div>
-<h4>  Best Residential Architecture Practice - South East England </h4> 
+<h4>  Best Residential Architecture Practice, South East England - Build Architecture Awards 2021 </h4> 
 
 <SliderHome /> <br/><br/><br/>
 
