@@ -13,7 +13,7 @@ function SliderHome() {
       <Carousel>
         <Carousel.Item>
           <img
-            className="slide"
+            className="slides"
             src={caddy}
             alt="First slide"
           />
@@ -24,7 +24,7 @@ function SliderHome() {
 
         <Carousel.Item>
           <img
-            className="slide"
+            className="slides"
             src={image4}
             alt="First slide"
           />
@@ -35,7 +35,7 @@ function SliderHome() {
 
         <Carousel.Item>
           <img
-            className="slide"
+            className="slides"
               src={estuary}
             alt="second slide"
           />
@@ -46,7 +46,7 @@ function SliderHome() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="slide"
+            className="slides"
               src={s2}
             alt="Third slide"
           />
@@ -57,7 +57,7 @@ function SliderHome() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="slide"
+            className="slides"
               src={l4}
             alt="fourth slide"
           />

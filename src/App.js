@@ -28,10 +28,11 @@ class App extends Component {
           <Switch>
             <Route exact path="/contact" component={Travel} />
             <Route exact path="/" component={Home} />
+            <Route exact path="/services" component={Services} />
             <Route exact path="/about" component={About} />
             <Route exact path="/gallery" component={Gallery} />
             <Route exact path="/recent" component={Recent} />
-            <Route exact path="/services" component={Services} />
+            
           </Switch>
         </BrowserRouter>
       </React.Fragment>

@@ -25,13 +25,13 @@ h2{
 
 }
 h3{
- text-align: center;
- font-family: 'Abel' ;
- font-weight: normal;
- font-size: 36px;
- margin:40px;
- padding: 0px;
- transform: translate(-0%, -100%);
+  text-align: center;
+  font-family: 'Abel' ;
+  font-weight: normal;
+  font-size: 40px;
+  margin:0px;
+  padding: 0px;
+  transform: translate(-0%, 50%);
   color: #000000;
 }
 @media only screen and (max-width: 550px) {
@@ -50,12 +50,12 @@ h3{
 h4{
  text-align: center;
  font-family: 'Abel' ;
- font-weight: normal;
- font-size: 25px;
+ font-weight: bold;
+ font-size: 22px;
  margin:50px;
  padding-right: 15%;
   padding-left: 15%;
-  font-style: italic;
+  font-style: bold;
  transform: translate(-0%, 0%);
   color: #F0F8FF;
 }
@@ -64,7 +64,7 @@ h5{
  text-align: center;
  font-family: 'Abel' ;
  font-weight: normal;
- font-size: 50px;
+ font-size: 30px;
  margin:40px;
  padding: 0px;
  transform: translate(-50%, 50%);
@@ -186,7 +186,7 @@ h5 {
       }
 
     }
-    .slide {
+    .slides {
        height: 600px;
       width: 100%;
       object-fit: cover;
@@ -196,14 +196,14 @@ position: relative;
     }
 
       @media screen and (max-width: 480px) {
-        .slide {
+        .slides {
         height: 400px;
         display: inline-block;
 
       }
     }
     @media screen and (min-width: 1280px) {
-      .slide {
+      .slides {
       height: 900px;
       display: inline-block;
 
@@ -416,6 +416,5 @@ float: middle;
 }
 
 .image {
-  height: 100px
-  ;
+  height: 100px;
 }

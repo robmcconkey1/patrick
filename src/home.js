@@ -19,9 +19,9 @@ import './App.css'
 
 export const Home = () => (
   <div>
-<h4> "Large or small, each project has the capacity to be extraordinary..."</h4>
+<h4>  Best Residential Architecture Practice - South East England </h4> 
 
-<SliderHome />
+<SliderHome /> <br/><br/><br/>
 
 <h2 class= "intro"> Patrick McConkey graduated in 1990 from the Kent Institute of Art and Design with a CDP Distinction. As a chartered architect he has designed a number of high profile
 projects and has practised in London, Paris and Cape Town. Winner of several architectural
@@ -48,4 +48,5 @@ Doctors. Patrick established mcconkey architects in 2020, a design led practice 
 
 /*
 <div class="riba" >
-<img class="riba" src={riba} alt="headshot" /> */
+<img class="riba" src={riba} alt="headshot" />
+<h4>  "Large or small, each project has the capacity to be extraordinary..." */

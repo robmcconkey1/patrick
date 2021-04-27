@@ -8,13 +8,14 @@ import ImageGridList from './gridlist.js'
 import Footer from './footer'
 import {TestPage} from './newgallery.js'
 import {Feature} from './featuredgallery.js'
+import Card from './components/card'
 
 export const Gallery = () => (
   <main>
+   
     <TestPage/>
-
-    <br/><br/><p> Recent project - Canterbury, Kent </p> <br/><br/><br/>
-    <Feature/>
     <Footer/>
   </main>
 );
+
+/*  <Card/> */
